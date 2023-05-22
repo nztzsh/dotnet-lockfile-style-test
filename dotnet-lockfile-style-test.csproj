@@ -6,7 +6,7 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
 
-  <ItemGroup Condition=" '$(TargetFramework)' == '.net7.0' ">
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
     <ProjectReference Include="import/import.csproj" />
   </ItemGroup>
