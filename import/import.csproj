@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>.net7.0</TargetFrameworks>
+    <Version>1.0.0</Version>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <Import Project="../ref/ref.csproj" />
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
