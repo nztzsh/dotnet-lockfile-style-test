@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFrameworks>.net7.0</TargetFrameworks>
+    <TargetFrameworks>net48</TargetFrameworks>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <AssemblyName>lockfile-style-test</AssemblyName>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
