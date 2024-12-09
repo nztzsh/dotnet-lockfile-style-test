@@ -6,7 +6,7 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
 
-  <Import Project="../ref/ref.csproj" />
+  <Import Project="../ref/Ref.csproj" />
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.0.0" />
