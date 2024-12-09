@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.3, )",
+        "resolved": "1.0.3",
+        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3"
+        }
+      },
+      "Newtonsoft.Json": {
+        "type": "Direct",
+        "requested": "[10.0.1, )",
+        "resolved": "10.0.1",
+        "contentHash": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg=="
+      },
+      "Google.Protobuf": {
+        "type": "Transitive",
+        "resolved": "3.0.0",
+        "contentHash": "dR2aOri7pW74e1mKgA7/+ocXnfDIW5fb+FrexPsxA9xx8EijQQp7ps09llRoF+M3D75GFVhusjlIMQ5We+ow/w=="
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net48": {
+        "type": "Transitive",
+        "resolved": "1.0.3",
+        "contentHash": "zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ=="
+      },
+      "System.Text.Json": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "Vzs/IsCucTq38m/kCGQo7ItppdwxGUyBCaZqiM3Q9syJD1eUxjYYYy3nEpiJP/AHfSpqgPLVceD777GKc/GLEQ=="
+      },
+      "import.test": {
+        "type": "Project",
+        "dependencies": {
+          "Google.Protobuf": "[3.0.0, )",
+          "System.Text.Json": "[1.0.0, )"
+        }
+      }
+    }
+  }
+}
