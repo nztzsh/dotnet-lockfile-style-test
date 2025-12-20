@@ -13,9 +13,9 @@
       },
       "Newtonsoft.Json": {
         "type": "Direct",
-        "requested": "[10.0.1, )",
-        "resolved": "10.0.1",
-        "contentHash": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg=="
+        "requested": "[13.0.4, )",
+        "resolved": "13.0.4",
+        "contentHash": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A=="
       },
       "Google.Protobuf": {
         "type": "Transitive",
@@ -27,16 +27,10 @@
         "resolved": "1.0.3",
         "contentHash": "zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ=="
       },
-      "System.Text.Json": {
-        "type": "Transitive",
-        "resolved": "1.0.0",
-        "contentHash": "Vzs/IsCucTq38m/kCGQo7ItppdwxGUyBCaZqiM3Q9syJD1eUxjYYYy3nEpiJP/AHfSpqgPLVceD777GKc/GLEQ=="
-      },
       "import.test": {
         "type": "Project",
         "dependencies": {
-          "Google.Protobuf": "[3.0.0, )",
-          "System.Text.Json": "[1.0.0, )"
+          "Google.Protobuf": "[3.0.0, )"
         }
       }
     }
